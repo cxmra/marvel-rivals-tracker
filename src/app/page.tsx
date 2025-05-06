@@ -14,7 +14,7 @@ export default function Home() {
   };
 
   return (
-    <div className="h-[calc(100vh-4rem)] flex items-center justify-center bg-green-500">
+    <div className="h-[calc(100vh-4rem)] flex items-center justify-center bg-gray-800">
       <div className="w-full max-w-md px-4">
         <input type="text" placeholder="Search by player name" value={query} onChange={(e) => setQuery(e.target.value)} onKeyDown={handleKeyDown} className="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
       </div>
