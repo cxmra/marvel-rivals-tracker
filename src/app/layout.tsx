@@ -26,7 +26,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Marvel Rivals Tracker</title>
       </head>
-      <body className="flex flex-col h-screen">
+      <body className="flex flex-col bg-yellow-500 h-screen">
         {/* Fixed Navbar */}
         <header className="bg-black text-white px-6 py-3 fixed w-full h-16 z-50">
           <nav className="flex items-center justify-between w-full">
